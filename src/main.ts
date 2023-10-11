@@ -19,8 +19,10 @@ async function bootstrap() {
   );
 
   const config = new DocumentBuilder()
-    .setTitle('Basic RESTful API')
-    .setDescription('Just a basic RESTful API with the essentials')
+    .setTitle('Covid API')
+    .setDescription(
+      'Una api para manejar la base de datos de covid para Topicos de Gestion de Bases de Datos',
+    )
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
